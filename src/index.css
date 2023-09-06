@@ -1,0 +1,26 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 35%;
+}
+
+.card-cell {
+  display: flex;
+  border: 1px solid black;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.match {
+  background-color: lightgreen;
+}
+
+input {
+  height: 20px;
+  width: 500px;
+}
+
+button {
+  padding: 3px;
+}
