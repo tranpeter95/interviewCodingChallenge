@@ -52,72 +52,35 @@ function checkForBingo(bingoCard, drawnNumbers) {
   return false;
 }
 
-// here are some samples
-
-// this should return true with diagonal + free
 console.log(
   checkForBingo(
     [
-      8,
-      29,
-      35,
-      54,
-      65,
-      13,
-      24,
-      44,
-      48,
-      67,
-      9,
-      21,
-      'FREE',
-      59,
-      63,
-      7,
-      19,
-      34,
-      53,
-      61,
       1,
-      20,
-      33,
-      46,
-      72,
-    ],
-    [8, 24, 53, 72]
-  )
-);
-
-// this should return false
-console.log(
-  checkForBingo(
-    [
-      8,
-      29,
-      35,
-      54,
-      65,
-      13,
-      24,
-      44,
-      48,
-      67,
-      9,
-      21,
-      'FREE',
-      59,
-      63,
+      2,
+      3,
+      4,
+      5,
+      6,
       7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      'FREE',
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
       19,
-      34,
-      53,
-      61,
-      1,
       20,
-      33,
-      46,
-      72,
+      21,
+      22,
+      23,
+      24,
     ],
-    [1, 33, 53, 65, 29, 75]
+    [1, 2, 3, 4, 5]
   )
 );

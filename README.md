@@ -1,6 +1,14 @@
 # B-I-N-G-O
 
-## Getting started
+## Interview Coding Challenge
+
+To run tests for the coding challenge, replace the parameters in the console.log checkForBingo arrays in the index.js file in the root folder, then run
+
+`node index.js`
+
+in the terminal while in the root folder.
+
+## Playing frontend Bingo
 
 'npm i' to install dependencies
 
