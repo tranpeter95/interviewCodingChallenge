@@ -2,7 +2,7 @@
 
 ## Interview Coding Challenge
 
-To run tests for the coding challenge, replace the parameters in the console.log checkForBingo arrays in the index.js file in the root folder, then run
+To run tests for the coding challenge, go to index.js in the root folder and modify the arguments for the console log invocation of checkForBingo, then run
 
 `node index.js`
 
